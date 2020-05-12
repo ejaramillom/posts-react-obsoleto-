@@ -1,50 +1,65 @@
-.button{
- display: flex;
- align-items: center;
- }
-
-img{
-  width: 200px;
+.button {
+   display: flex;
+   align-items: center;
 }
 
-button.fas{
-  border:none;
-  background: transparent;
-  font-size: 50px;
-  text-decoration: none;
+img {
+  width: 250px;
 }
 
-.row{
+button.fas {
+  border: none;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.row {
   margin-top: 50px;
   padding-top: 20px;
 }
 
 
-.votes{
-font-size: 25px
+.votes {
+  font-size: 25px
 }
 
-.votes span{
+.votes span {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 button:focus {
-outline: 0
+ outline: 0
 }
 
 
-.fas:hover{
+.fas:hover {
   opacity: 0.7;
 }
 
-.avatar{
+.avatar {
   border-radius: 50%;
   max-width: 50px;
 }
 
-.author{
+.author {
   margin-top: 10px;
+  margin-bottom: 10px;
   color:gray;
+}
+
+h1 {
+  margin-bottom: 50px !important;
+  margin-left: -20px;
+}
+
+.center-buttons {
+  margin-left: 50%;
+}
+
+.margin-button {
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
